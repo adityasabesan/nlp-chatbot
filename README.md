@@ -10,11 +10,11 @@ This project implements a rule-based chatbot that responds to user inputs using 
 ---
 
 ## Features
-- Interactive chatbot conversation
+- Interactive NLP chatbot
 - Pattern matching using NLTK
 - Natural language preprocessing
-- Machine learning based intent detection
-- Web interface for interacting with the chatbot
+- Machine learning based responses
+- Web interface built using Streamlit
 
 ---
 
@@ -22,24 +22,63 @@ This project implements a rule-based chatbot that responds to user inputs using 
 - Python
 - NLTK
 - Machine Learning
+- Streamlit
 - Jupyter Notebook
-- HTML / CSS (FLASK)
 
 ---
 
 ## How to Run the Project
 
-1. Clone this repository
+Follow the steps below to run the chatbot locally on your machine.
 
+### 1. Clone the Repository
+
+Open a terminal and run:
+
+```bash
 git clone https://github.com/YOUR_USERNAME/nlp-chatbot.git
+cd nlp-chatbot
+```
 
-2. Install dependencies
+### 2. Install Required Libraries
 
-pip install nltk
+Install the dependencies using pip:
 
-3. Run the notebook
+```bash
+pip install nltk streamlit
+```
 
-Open **NLP_Chatbot_Project.ipynb** in Jupyter Notebook and run all cells.
+### 3. Download Required NLTK Data (First Time Only)
+
+Run the following in Python:
+
+```python
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+```
+
+### 4. Start the Streamlit Application
+
+Run the chatbot interface using Streamlit:
+
+```bash
+streamlit run app.py
+```
+
+*(Replace `app.py` with your actual Streamlit file name if it is different.)*
+
+### 5. Open the Chatbot in Your Browser
+
+After running the command, Streamlit will start a local server and open the chatbot automatically in your browser.
+
+Example address:
+
+```
+http://localhost:8501
+```
+
+You can now interact with the chatbot through the web interface.
 
 ---
 
