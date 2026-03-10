@@ -13,14 +13,17 @@ This project implements a rule-based chatbot that responds to user inputs using 
 - Interactive chatbot conversation
 - Pattern matching using NLTK
 - Natural language preprocessing
-- Simple conversational AI responses
+- Machine learning based intent detection
+- Web interface for interacting with the chatbot
 
 ---
 
 ## Technologies Used
 - Python
-- NLTK (Natural Language Toolkit)
+- NLTK
+- Machine Learning
 - Jupyter Notebook
+- HTML / CSS (FLASK)
 
 ---
 
@@ -51,9 +54,9 @@ Bot: I am a chatbot built using Python and NLP.
 ---
 
 ## Future Improvements
-- Add machine learning based intent detection
-- Build a web interface
 - Add voice input support
+- Deploy chatbot online
+- Integrate large language models
 
 ---
 
